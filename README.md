@@ -12,7 +12,8 @@
 
 In this assignment I employed different techniques for training and evaluating models with imbalanced classes. I used the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the Ensemnle Learning and Resampling.
 
-Credit Risk Resampling
+### Credit risk resampling
+
 Oversampling
 Random Oversampling includes selecting random examples from the minority class with replacement and supplementing the training data with multiple copies of this instance, hence it is possible that a single instance may be selected multiple times.
 
@@ -28,33 +29,35 @@ This involces combining the two above methods. Using the SMOTE and Edited Neares
 
 ### Final Questions
 
-# Final Questions
 
-#1. Which model had the best balanced accuracy score?
+1. Which model had the best balanced accuracy score?
 
-   # The random oversampler, SMOTE, undersampler and combination had the best balanced accuracy score of 0.9948
+Ans: The random oversampler, SMOTE, undersampler and combination had the best balanced accuracy score of 0.9948
 
-#2. Which model had the best recall score?
+2. Which model had the best recall score?
 
-   # All the model had a recall score of 0.99
+Ans: All the model had a recall score of 0.99
 
-#3. Which model had the best geometric mean score?
+3. Which model had the best geometric mean score?
 
-    # All the model had a geometric mean score of 0.99.
-
+Ans: All the model had a geometric mean score of 0.99.
 
 
-Ensemble Learning
+
+### Ensemble Learning
+
 In this section, you will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. You will use the Balanced Random Forest Classifier and the Easy Ensemble Classifier. Refer to the documentation for each of these to read about the models and see examples of the code.
 
-#1. Which model had the best balanced accuracy score?
+### Final Questions
 
-   # Balanced Random Forest Classifier had the best balanced accuracy score of 0.99 compared to easy ensemble accuracy score of 0.94
+1. Which model had the best balanced accuracy score?
 
-#2. Which model had the best recall score?
+Ans: Balanced Random Forest Classifier had the best balanced accuracy score of 0.99 compared to easy ensemble accuracy score of 0.94
 
-   # Balanced Random Forest Classifier had the best recall score of 1 compared to easy ensemble recall score of 0.94
+2. Which model had the best recall score?
 
-#3. Which model had the best geometric mean score?
+Ans: Balanced Random Forest Classifier had the best recall score of 1 compared to easy ensemble recall score of 0.94
 
-   # Easy ensemble had the best geometric mean score of 0.93 compared to Balanced Forest classifier geometric mean score of 0.57
+3. Which model had the best geometric mean score?
+
+Ans: Easy ensemble had the best geometric mean score of 0.93 compared to Balanced Forest classifier geometric mean score of 0.57
