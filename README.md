@@ -15,16 +15,21 @@ In this assignment I employed different techniques for training and evaluating m
 ### Credit risk resampling
 
 Oversampling
+
 Random Oversampling includes selecting random examples from the minority class with replacement and supplementing the training data with multiple copies of this instance, hence it is possible that a single instance may be selected multiple times.
 
 Oversampling techniques used were the following:
 
 Random oversampler
+
 SMOTE (Synthetic Minority Oversampling Technique)
+
 Undersampling
+
 Random Undersampling is the opposite to Random Oversampling. This method seeks to randomly select and remove samples from the majority class, consequently reducing the number of examples in the majority class in the transformed data.
 
 Combination Sampling
+
 This involces combining the two above methods. Using the SMOTE and Edited Nearest Mean (SMOTEENN) techniques.
 
 ### Final Questions
@@ -32,15 +37,15 @@ This involces combining the two above methods. Using the SMOTE and Edited Neares
 
 1. Which model had the best balanced accuracy score?
 
-Ans: The random oversampler, SMOTE, undersampler and combination had the best balanced accuracy score of 0.9948
+The random oversampler, SMOTE, undersampler and combination had the best balanced accuracy score of 0.9948
 
 2. Which model had the best recall score?
 
-Ans: All the model had a recall score of 0.99
+All the model had a recall score of 0.99
 
 3. Which model had the best geometric mean score?
 
-Ans: All the model had a geometric mean score of 0.99.
+All the model had a geometric mean score of 0.99.
 
 
 
@@ -52,12 +57,12 @@ In this section, you will train and compare two different ensemble classifiers t
 
 1. Which model had the best balanced accuracy score?
 
-Ans: Balanced Random Forest Classifier had the best balanced accuracy score of 0.99 compared to easy ensemble accuracy score of 0.94
+Balanced Random Forest Classifier had the best balanced accuracy score of 0.99 compared to easy ensemble accuracy score of 0.94
 
 2. Which model had the best recall score?
 
-Ans: Balanced Random Forest Classifier had the best recall score of 1 compared to easy ensemble recall score of 0.94
+Balanced Random Forest Classifier had the best recall score of 1 compared to easy ensemble recall score of 0.94
 
 3. Which model had the best geometric mean score?
 
-Ans: Easy ensemble had the best geometric mean score of 0.93 compared to Balanced Forest classifier geometric mean score of 0.57
+Easy ensemble had the best geometric mean score of 0.93 compared to Balanced Forest classifier geometric mean score of 0.57
